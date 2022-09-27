@@ -18,7 +18,7 @@ const Move = ({ character, comp_id }) => {
                 id={comp_id}
                 className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer"
                 onClick={() => handleClick()}>
-                Move X{" "}
+                Move {" "}
                 <input
                     type="number"
                     className="text-black text-center w-16 mx-2"
