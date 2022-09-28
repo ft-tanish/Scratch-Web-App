@@ -1,11 +1,13 @@
 import React from "react";
 import Icon from "../Icon";
+import Message from "./Looks/Message";
 
 export default function Looks() {
 
     return (
         <div>
             <div className="font-bold"> {"Looks"} </div>
+            <Message />
             <div className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer">
                 {"Say"}
                 <button>Hello</button>
