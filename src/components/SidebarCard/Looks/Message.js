@@ -29,7 +29,7 @@ const Message = ({ character, comp_id }) => {
     return (
         <div
             id={comp_id}
-            className="flex flex-row flex-wrap rounded bg-purple-500 text-white p-2 my-3 text-sm cursor-pointer"
+            className="flex flex-row flex-wrap rounded bg-purple-700 text-white p-2 my-3 text-sm cursor-pointer"
             onClick={() => displayMessage()}
         >
             say {" "}
