@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "../Icon";
 import Message from "./Looks/Message";
+import MessageTimer from "./Looks/MessageTimer";
 
 export default function Looks() {
 
@@ -8,13 +9,8 @@ export default function Looks() {
         <div>
             <div className="font-bold"> {"Looks"} </div>
             <Message />
-            <div className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer">
-                {"Say"}
-                <button>Hello</button>
-                {"for"}
-                <input className="mx-2 p-1 py-0 text-center"
-                    type="number" value={"2 sec"} />
-            </div>
+            <MessageTimer />
+
             <div className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer">
                 {"Turn "}
                 <Icon name="undo" size={15} className="text-white mx-2" />
