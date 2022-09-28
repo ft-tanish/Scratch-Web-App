@@ -13,12 +13,12 @@ const Move = ({ character, comp_id }) => {
     return (
         <div
             id={comp_id}
-            className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer"
+            className="flex flex-row flex-wrap rounded bg-blue-500 text-white p-2 my-2 text-sm cursor-pointer"
             onClick={() => handleClick()}>
             Move {" "}
             <input
                 type="number"
-                className="text-black text-center w-16 mx-2"
+                className="text-black text-center w-14 mx-2 rounded"
                 value={steps}
                 onChange={(e) => setSteps(parseInt(e.target.value))}
             />{" "}
